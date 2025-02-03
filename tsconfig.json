@@ -7,6 +7,14 @@
     "strict": true,
     "skipLibCheck": true,
     "preserveSymlinks": true,
-    "typeRoots": ["./node_modules/@types"]
-  }
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "outDir": "./dist"
+  },
+  "include": [
+    "./src/**/*",
+    "./tests/**/*",
+    "commitlint.config.ts"
+  ]
 }
